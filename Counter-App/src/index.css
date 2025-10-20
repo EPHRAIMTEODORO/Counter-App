@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+.Title {
+  text-align: center;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+.mainContainer{
+  background-color: rgb(165, 92, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+  width: 500px;
+  height: 500px;
+  color: aliceblue;
+  border-radius: 20px;
+  gap: 30px;
+}
+
+.buttonContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+/* From Uiverse.io by suda-code */ 
+button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #85e16c;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #85e16c;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
